@@ -21,8 +21,11 @@
             <?php foreach ($polozky as $p) { ?>
                 <li class = "nav-item">
                     <a class="nav-link" href="<?php echo base_url()?><?= $p->nazev?>"><?= $p->displej_nazev ?><span class="sr-only">(current)</span></a>
-                 </li>
+                </li>
             <?php } ?>
+                <li class = "nav-item">
+                    <a class="nav-link" href="<?php echo base_url()?>auth">Přihlášení</a>
+                </li>
         </ul>
     </nav>
   </body>

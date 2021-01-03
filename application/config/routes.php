@@ -59,3 +59,4 @@ $route['knihy_kategorie'] = 'Controller/knihy_kategorie';
 $route['kategorie'] = 'Controller/kategorie';
 $route['autori'] = 'Controller/knihy_autori';
 
+$route['auth'] = 'auth';
